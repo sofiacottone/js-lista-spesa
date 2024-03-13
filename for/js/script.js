@@ -29,9 +29,6 @@ for (let i = 0; i < list.length; i++) {
     console.log(thisElement);
 
     // li stampo nel DOM
-    // domList.innerHTML += `<li class="border rounded py-1 px-2 my-2">${thisElement}</li>`;
-    domList.innerHTML += `
-    <li class="border rounded py-1 px-2 my-2">${thisElement}</li>
-`;
+    domList.innerHTML += `<li class="border rounded py-1 px-2 my-2">${thisElement}</li>`;
 
 }

@@ -34,6 +34,6 @@ while (i < list.length) {
     const thisElement = list[i];
 
     // stampo tutti gli elementi nel DOM
-    domList.innerHTML += `<li>${thisElement}</li>`;
+    domList.innerHTML += `<li class="border rounded py-1 px-2 my-2">${thisElement}</li>`
     i++;
 }
