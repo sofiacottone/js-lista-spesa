@@ -15,3 +15,24 @@
 // - Ricordiamoci di inizializzare la variabile di contatore prima dell'inizio del ciclo while
 // - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all'interno ciclo while
 
+const list = [
+    'Latte',
+    'Cacao',
+    'Insalata',
+    'Carote',
+    'Pomodori',
+    'Piatti pronti'
+];
+console.log(list);
+
+const domList = document.querySelector('.list');
+
+// scorro gli elementi dell'elenco
+for (let i = 0; i < list.length; i++) {
+    const thisElement = list[i];
+    console.log(thisElement);
+
+    // li stampo nel DOM
+    domList.innerHTML += `<li>${thisElement}</li>`;
+
+}
