@@ -8,7 +8,7 @@ I added a grocery list contained in an array into the DOM with JavaScript using 
 
 Preview at: 
 - FOR method: https://sofiacottone.github.io/js-lista-spesa/for/index.html
-- WHILE method: https://sofiacottone.github.io/js-jsnacks-blocco-2/jsnack-2/
+- WHILE method: https://sofiacottone.github.io/js-lista-spesa/while/index.html
 
 
 
