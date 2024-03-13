@@ -21,25 +21,41 @@
             color: #fff;
         }
 
+        main {
+            height: calc(100vh - 1.875rem);
+        }
+
         li {
             list-style: none;
             background: #3C536B;
             cursor: pointer;
         }
+
+        footer {
+            height: 1.875rem;
+        }
     </style>
 </head>
 
 <body>
+    <main>
+        <div class="container py-4">
+            <h1 class="text-center text-white fw-bold mb-3">Lista della spesa 🛒</h1>
 
-    <div class="container py-4">
-        <h1 class="text-center text-white fw-bold mb-3">Lista della spesa 🛒</h1>
+            <div class="d-flex justify-content-center">
+                <ul class="list col-12 col-lg-6 px-1">
 
-        <div class="d-flex justify-content-center">
-            <ul class="list col-12 col-lg-6 px-1">
-
-            </ul>
+                </ul>
+            </div>
         </div>
-    </div>
+    </main>
+    <footer class="bg-dark">
+        <div class="container-fluid">
+            <div class="col-12 text-end">
+                <small>Made with ♥️ by Sofia C.</small>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
